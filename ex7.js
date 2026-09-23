@@ -1,0 +1,14 @@
+//Crie um algoritmo que calcule o valor total de uma locação, se a quantidade de dias for maior que 10
+//aplicar um desconte de 50R$ no valor total
+//Iniciando o uso de variaveis "let"
+
+
+const dias = 12
+const valorDia = 113.42
+
+let calculo = dias * valorDia
+
+if(dias > 10){
+    calculo = calculo - 50
+}
+console.log(`O valor total é ${calculo}`)
